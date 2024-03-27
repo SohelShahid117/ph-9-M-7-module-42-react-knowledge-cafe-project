@@ -3,13 +3,14 @@ import PropTypes from 'prop-types'; // ES6
 // import { BsBookmark } from "react-icons/bs";
 import { BsBookmarkFill } from "react-icons/bs";
 
-const SingleBlog = ({blog,handleAddToBookMark}) => {
+const SingleBlog = ({blog,handleAddToBookMark,handleMarkAsRead}) => {
     // console.log(blog)
     // console.log(handleAddToBookMark)
-    const {title,cover_image,author_image,author,reading_time,posted_date,hash_tags} = blog;
+    // console.log(handleMarkAsRead)
+    const {id,title,cover_image,author_image,author,reading_time,posted_date,hash_tags} = blog;
     // console.log(title)
     return (
-        <div>
+        <div className='my-5'>
                 {/* {/* <h2>Single Blog</h2> */}
                 <img className='w-full mb-5' src={cover_image}></img>
 
@@ -24,7 +25,7 @@ const SingleBlog = ({blog,handleAddToBookMark}) => {
                     <div>
                         {/* <span>{reading_time} min read <FaBeer /> </span> */}
                         <span>{reading_time} min read </span>
-                        <button onClick={()=>handleAddToBookMark(blog)} className='ml-5 text-red-700'><BsBookmarkFill /></button>
+                        <button onClick={()=>handleAddToBookMark(id,blog)} className='ml-5 text-red-700'><BsBookmarkFill /></button>
                     </div>
                 </div>
 
@@ -35,6 +36,7 @@ const SingleBlog = ({blog,handleAddToBookMark}) => {
                         hash_tags.map((hash,indx)=> <span key={indx} className='mr-5'><a href='#' target='_blank'>#{hash}</a></span>)
                     }
                 </p>
+                <button onClick={()=>handleMarkAsRead(id,reading_time)} className='text-purple-600 font-bold underline'>Mark As Read</button>
         </div>
     );
 };

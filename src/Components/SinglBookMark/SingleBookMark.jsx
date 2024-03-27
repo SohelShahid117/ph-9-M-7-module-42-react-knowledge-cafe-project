@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 
 const SingleBookMark = ({bkData}) => {
     // console.log(bkData)
+   
     const {reading_time,title} = bkData
+    // console.log(reading_time)
     return (
         <div className="flex justify-between bg-slate-100 rounded-lg m-4 p-4">
             <h1 className="text-3xl">{title}</h1>
