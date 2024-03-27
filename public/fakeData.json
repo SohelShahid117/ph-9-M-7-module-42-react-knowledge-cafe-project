@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "cover_image": "https://i.ibb.co/z6N7Pgw/istockphoto-1339731921-1024x1024.jpg",
+        "cover_image": "https://i.ibb.co/vLTwXV7/istockphoto-1457433817-612x612.jpg",
         "author_image": "https://i.ibb.co/z6N7Pgw/istockphoto-1339731921-1024x1024.jpg",
         "author":"Sohel",
         "title": "Exploring the Universe",
@@ -11,7 +11,7 @@
       },
       {
         "id": 2,
-        "cover_image": "https://i.ibb.co/z6N7Pgw/istockphoto-1339731921-1024x1024.jpg",
+        "cover_image": "https://i.ibb.co/vLTwXV7/istockphoto-1457433817-612x612.jpg",
         "author_image": "https://i.ibb.co/z6N7Pgw/istockphoto-1339731921-1024x1024.jpg",
         "author":"Shahid",
         "title": "The Art of Cooking",
@@ -21,7 +21,7 @@
       },
       {
         "id": 3,
-        "cover_image": "https://i.ibb.co/z6N7Pgw/istockphoto-1339731921-1024x1024.jpg",
+        "cover_image": "https://i.ibb.co/vLTwXV7/istockphoto-1457433817-612x612.jpg",
         "author_image": "https://i.ibb.co/z6N7Pgw/istockphoto-1339731921-1024x1024.jpg",
         "author":"Sohel",
         "title": "Hiking Adventures",
@@ -31,7 +31,7 @@
       },
       {
         "id": 4,
-        "cover_image": "https://i.ibb.co/z6N7Pgw/istockphoto-1339731921-1024x1024.jpg",
+        "cover_image": "https://i.ibb.co/vLTwXV7/istockphoto-1457433817-612x612.jpg",
         "author_image": "https://i.ibb.co/z6N7Pgw/istockphoto-1339731921-1024x1024.jpg",
         "author":"Shahid",
         "title": "Introduction to Coding",

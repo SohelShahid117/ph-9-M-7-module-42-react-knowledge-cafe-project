@@ -1,9 +1,13 @@
+import SingleBookMark from "../SinglBookMark/SingleBookMark";
 
-
-const Bookmarks = () => {
+const Bookmarks = ({bookMark}) => {
+    // console.log(bookMark)
     return (
-        <div className="w-1/3">
-            <h1>bookmarkssssssssssssssss</h1>
+        <div className="w-1/3 bg-gray-200">
+            <h1 className="text-3xl">bookmarkssssssssssssssss:{bookMark.length}</h1>
+            {
+                bookMark.map((bk) => <SingleBookMark key={bk.id} bkData={bk}></SingleBookMark>)
+            }
             
         </div>
     );
